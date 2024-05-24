@@ -1,0 +1,28 @@
+input {
+  width: 50%;
+  height: 10px;
+  font-size: 18px;
+}
+
+/*Cambiar dimensiones de input*/
+
+#lista-de-productos {
+  display: flex;
+}
+
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Agregar margin-top*/
+.producto img {
+  width: 70%;
+  height: auto;
+  margin-top: 20px;
+}
