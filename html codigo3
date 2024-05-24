@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <link rel="stylesheet" href="filtro.css"> //Enlazar css 
+  <title>Filtros en JS</title>
+</head>
+
+<body>
+
+  <div>
+      <input type="text" placeholder="Seleccioná un color o tipo">
+      <button>Filtrar</button>
+      <h1>Lista de productos </h1>
+      //Agregar div a cada artículo y colocar input
+      <div id="lista-de-productos">
+        <div class="producto">
+        <img src="./bota-azul.jpg" alt="bota azul">
+        <input type="text">
+        </div>
+        <div class="producto">
+        <img src="./bota-negra.jpg" alt="bota negra">
+        </div>
+        <div class="producto">
+
+        <img src="./zapato-rojo.jpg" alt="zapato-rojo">
+      </div>
+      
+      </div>
+  </div>
+  <script src="../filtro.js"></script> //y script
+</body>
+
+</html>
